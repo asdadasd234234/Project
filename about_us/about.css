@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    font-family: 'DoubleStruck';
+}
+.header{
+    display: flex;
+    width:100vw ;
+    height:10vh ;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-top: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.booking{
+    width:33vw ;
+    height: 10vh;
+}
+.booking2{
+    width:33vw ;
+    height: 10vh;
+}
+.booking3{
+   width:33vw ;
+    height: 10vh; 
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    gap:25px;
+}
+.booking h1{
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+}
+.booking2 h1{
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+body{
+    margin: 0;
+}
+.TEXT{
+    width: 100vw;
+    height: 70vh;
+    margin: 10px;
+     align-content: center;
+    justify-content: center;
+    display: flex;  
+}
+h1{color: white;
+}
+.TEXT h1{
+    font-size: 450px;
+    margin: 0;
+    opacity: 0;
+    filter: brightness(0.5);
+    transform: translateX(-50px);
+    animation: slideIn 1.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        filter: brightness(0.5);
+        transform: translateX(-250px);
+    }
+    to {
+        opacity: 1;
+        filter: brightness(1.1);
+        transform: translateX(0);
+    }
+}
+p{
+    color: white;
+}
+.TEXT p{
+    font-size: 50px;
+}
+.booking3 a{
+    color: white;
+}
+.TEXT1{
+    width: 65vw;
+    height: 70vh;
+     align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw;
+}
+.TEXT2{
+width: 35VW;
+height: 70vh;
+margin-right: 100px;
+}
+.Banan{
+    width: 70vw;
+    height: 30vh;
+display: flex;
+}
+.tekst h1{
+    margin-left: 900px;
+}
+.Banan img{
+    margin-left: 35vw;
+}
+
+.footer-part{
+    display: flex;
+    width: 33vw;
+    height: 24vh;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-part-center{
+    width: 34vw;
+    height: 24vh;
+    
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.end{
+    width: 100vw;
+    height: 24vh;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+     display: flex;
+       border-bottom: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+@font-face {
+    src: url("../Double\ Strike.ttf");
+    font-family: 'DoubleStruck';
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,62 @@
+body{
+    background-color: #000000;
+}
+.header{
+    display: flex;
+    width:100vw ;
+    height:10vh ;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.booking{
+    width:33vw ;
+    height: 10vh;
+}
+.booking2{
+    width:33vw ;
+    height: 10vh;
+}
+.booking3{
+   width:33vw ;
+    height: 10vh; 
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    gap:25px;
+}
+.booking h1{
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+}
+.booking2 h1{
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+}
+body{
+    margin: 0;
+}
+
+
+.TEXT{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin: 10px;
+}
+.text img{
+    max-width: 30vw;
+    max-height: 70vh;
+}
+h1{color: white;
+}
+.booking3 a{
+    color: white;
+}

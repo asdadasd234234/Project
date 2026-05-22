@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+}
+.backround{
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+}
+body{
+    margin: 0;
+}
+.backround img{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    width:100vw ;
+    height:10vh ;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.booking{
+    width:33vw ;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.booking2{
+    width:33vw ;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.booking3{
+   width:33vw ;
+    height: 10vh; 
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    gap:25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.booking h1{
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+}
+.booking2 h1{
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.main{
+    width: 100vw;
+    height: 76vh;
+    
+}
+.row1{
+    display: flex;
+    width: 100vw;
+    height: 38vh;
+    align-items: center;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+    width: 100vw;
+    height: 38vh;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    width:10vw ;
+    height: 25vh;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.end{
+    width: 100vw;
+    height: 24vh;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+     display: flex;
+     
+}
+.end h1{
+    margin: 30px;
+     
+}
+.cont img{
+    width:8vw ;
+    height: 15vh;
+}
+.footer-part{
+    display: flex;
+    width: 33vw;
+    height: 24vh;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-part-center{
+    width: 34vw;
+    height: 24vh;
+    
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1{color: white;
+}
+.booking3 a{
+    color: white;
+}
