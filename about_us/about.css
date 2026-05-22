@@ -48,9 +48,9 @@ body{
 }
 .TEXT{
     width: 100vw;
-    height: 70vh;
+    height: auto;
     margin: 10px;
-     align-content: center;
+    align-items: center;
     justify-content: center;
     display: flex;  
 }
@@ -87,35 +87,45 @@ p{
 }
 .TEXT1{
     width: 65vw;
-    height: 70vh;
-     align-content: center;
+    height: auto;
+    align-content: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
     margin-left: 25vw;
 }
 .TEXT2{
-width: 35VW;
-height: 70vh;
-margin-right: 100px;
+    width: 35VW;
+    height: auto;
+    margin-right: 100px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
 }
 .Banan{
-    width: 70vw;
+    width: 100vw;
     height: 30vh;
-display: flex;
-}
-.tekst h1{
-    margin-left: 900px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
 }
 .Banan img{
-    margin-left: 35vw;
+    opacity: 0;
+    transform: translateY(150px);
+    animation: floatUp 1.5s ease forwards;
+    animation-delay: 0.3s; 
 }
+.tekst {
+    align-content: center;
+    justify-content: center;
+    display: flex; 
+}
+
 
 .footer-part{
     display: flex;
     width: 33vw;
     height: 24vh;
-    
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -123,8 +133,7 @@ display: flex;
 .footer-part-center{
     width: 34vw;
     height: 24vh;
-    
-     align-items: center;
+    align-items: center;
     justify-content: center;
     display: flex;
 }
@@ -134,8 +143,8 @@ display: flex;
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
-     display: flex;
-       border-bottom: 3px;
+    display: flex;
+    border-bottom: 3px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -144,4 +153,14 @@ display: flex;
     font-family: 'DoubleStruck';
     font-weight: 400;
     font-style: normal;
+}
+@keyframes floatUp {
+    from {
+        opacity: 0;
+        transform: translateY(250px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

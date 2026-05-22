@@ -21,6 +21,8 @@ body{
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
+    border-left-color: black;
+    border-top-color: black;
 }
 .booking{
     width:33vw ;
