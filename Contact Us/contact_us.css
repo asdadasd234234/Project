@@ -1,14 +1,18 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    font-family: 'DoubleStruck';
 }
 .header{
     display: flex;
     width:100vw ;
     height:10vh ;
-    border-radius: 15px;
+    
     border-style: solid;
     border-color: rgb(255, 255, 255);
-    
+     border-left-color: black;
+    border-top-color: black;
 }
 
 .booking{
@@ -106,12 +110,20 @@ h1{color: white;
 .end{
     width: 100vw;
     height: 24vh;
-    border-radius: 15px;
+    
     border-style: solid;
     border-color: rgb(255, 255, 255);
      display: flex;
        border-bottom: 3px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+    border-left-color: black;
+    border-bottom-color: black;
+}
+@font-face {
+    src: url("../Double\ Strike.ttf");
+    font-family: 'DoubleStruck';
+    font-weight: 400;
+    font-style: normal;
 }
 
